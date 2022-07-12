@@ -1,12 +1,17 @@
-#include<GL/glew.h>
-#include<GLFW/glfw3.h>
-#include<iostream>
-#include<stb_image.h>
-#include<glm.hpp>
-#include<gtc/matrix_transform.hpp>
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
+
+#include <iostream>
+
+#include <stb_image.h>
+
+#include <glm.hpp>
+#include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
-#include"MyShader.h"
-#include"Camera.h"
+
+#include "Model.h"
+#include "Camera.h"
+
 using namespace glm;
 using namespace std;
 
@@ -22,6 +27,8 @@ bool firstMouse = true;
 
 float deltaTime = 0.0f;	
 float lastFrame = 0.0f;
+
+
 
 float vertices[] = {
     // Back face
@@ -68,7 +75,7 @@ float vertices[] = {
     -0.5f,  0.5f,  0.5f,  0.0f, 0.0f  // bottom-left        
 };
 
-float quadVertices[] = { /
+float quadVertices[] = { 
 
         -1.0f,  1.0f,  0.0f, 1.0f,
         -1.0f, -1.0f,  0.0f, 0.0f,
@@ -222,7 +229,7 @@ int main() {
     ourShader.setInt("texture2", 1);
 
     screenShader.use();
-    screenShader.setInt("screenTexture", 0);
+    screenShader.setInt("screenTexture", 1);
 
     unsigned int fbo;
     glGenFramebuffers(1, &fbo);
@@ -289,7 +296,7 @@ int main() {
         screenShader.use();
         glBindVertexArray(quadVAO);
         glDisable(GL_DEPTH_TEST);
-        glActiveTexture(GL_TEXTURE0);
+        glActiveTexture(GL_TEXTURE1);
         glBindTexture(GL_TEXTURE_2D, textureBuffer);
         glDrawArrays(GL_TRIANGLES, 0, 6);
 
