@@ -1,2 +1,17 @@
 ﻿  main.cpp
+C:\Users\Admin\Desktop\work\code\MyLearnOpenGL\Project1\main.cpp(383,41): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\work\code\MyLearnOpenGL\Project1\main.cpp(384,48): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\work\code\MyLearnOpenGL\Project1\main.cpp(385,48): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
   Project1.vcxproj -> C:\Users\Admin\Desktop\work\code\MyLearnOpenGL\Project1\x64\Debug\Project1.exe

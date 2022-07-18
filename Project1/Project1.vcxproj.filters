@@ -58,6 +58,12 @@
     <Text Include="skyboxFragmentShader.txt">
       <Filter>资源文件</Filter>
     </Text>
+    <Text Include="lightVertexShader.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="lightFragmentShader.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\Desktop\wall.jpg">

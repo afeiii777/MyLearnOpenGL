@@ -158,6 +158,8 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="fragmentShader.txt" />
+    <Text Include="lightFragmentShader.txt" />
+    <Text Include="lightVertexShader.txt" />
     <Text Include="screenFragmentShader.txt" />
     <Text Include="screenVetexShader.txt" />
     <Text Include="skyboxFragmentShader.txt" />
