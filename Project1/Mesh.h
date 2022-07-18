@@ -10,6 +10,8 @@
 #include <glm.hpp>
 #include <gtc/matrix_transform.hpp>
 
+#include <assimp/Importer.hpp>
+
 #include "MyShader.h"
 
 using namespace std;
@@ -30,7 +32,7 @@ struct vertex {
 struct texture {
     unsigned int id;
     string type;
-    string path;
+    aiString path;
 };
 
 class Mesh {

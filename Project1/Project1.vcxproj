@@ -160,12 +160,20 @@
     <Text Include="fragmentShader.txt" />
     <Text Include="screenFragmentShader.txt" />
     <Text Include="screenVetexShader.txt" />
+    <Text Include="skyboxFragmentShader.txt" />
+    <Text Include="skyboxVertexShader.txt" />
     <Text Include="vertexShader.txt" />
     <Text Include="edgeFragmentShader.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\Desktop\awesomeface.jpg" />
     <Image Include="..\..\..\Desktop\wall.jpg" />
+    <Image Include="awesomeface.jpg" />
+    <Image Include="back.jpg" />
+    <Image Include="bottom.jpg" />
+    <Image Include="front.jpg" />
+    <Image Include="left.jpg" />
+    <Image Include="right.jpg" />
+    <Image Include="top.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

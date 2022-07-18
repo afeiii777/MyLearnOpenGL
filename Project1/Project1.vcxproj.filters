@@ -52,12 +52,36 @@
     <Text Include="screenVetexShader.txt">
       <Filter>资源文件</Filter>
     </Text>
+    <Text Include="skyboxVertexShader.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="skyboxFragmentShader.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\Desktop\wall.jpg">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="..\..\..\Desktop\awesomeface.jpg">
+    <Image Include="awesomeface.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="back.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bottom.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="front.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="left.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="right.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="top.jpg">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

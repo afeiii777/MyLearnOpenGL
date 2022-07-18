@@ -1,4 +1,2 @@
 ﻿  main.cpp
-C:\Users\Admin\source\repos\Project1\Mesh.h(70,1): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
-C:\Users\Admin\source\repos\Project1\Model.h(25,38): warning C4552: ”+“: 未使用表达式结果
-  Project1.vcxproj -> C:\Users\Admin\source\repos\Project1\x64\Debug\Project1.exe
+  Project1.vcxproj -> C:\Users\Admin\Desktop\work\code\MyLearnOpenGL\Project1\x64\Debug\Project1.exe
